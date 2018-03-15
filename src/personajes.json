@@ -1,0 +1,52 @@
+{
+  "personajes": [
+    {
+      "id" : "1",
+      "img" : "./img/luke.jpg"
+    },
+    {
+      "id" : "2",
+      "img" : "./img/c3po.jpg"
+    },
+    {
+      "id" : "3",
+      "img" : "./img/r2d2.jpg"
+    },
+    {
+     "id" : "4",
+      "img" : "./img/darth-vader.jpg"
+    },
+    {
+      "id" : "5",
+      "img" : "./img/leia.jpg"
+    },
+    {
+      "id" : "10",
+      "img" : "./img/obi.jpg"
+    },
+    {
+      "id" : "13",
+      "img" : "./img/chewacca.jpg"
+    },
+    {
+      "id" : "14",
+      "img" : "./img/solo.png"
+    },
+    {
+      "id" : "19",
+      "img" : "./img/yoda.jpg"
+    },
+    {
+      "id" : "21",
+      "img" : "./img/boba-fett.jpg"
+    },
+    {
+      "id" : "67",
+      "img" : "./img/sith.jpg"
+    },
+    {
+      "id" : "69",
+      "img" : "./img/stormtrooper.jpg"
+    }
+  ]
+}
