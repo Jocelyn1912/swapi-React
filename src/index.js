@@ -1,8 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Encabezado from './componentes/Encabezado/Encabezado.js'
+import Personajes from './componentes/Personajes/Personajes.js';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const contenedorEncabezado = document.getElementById('head');
+const contenedor = document.getElementById('contenedor');
+
+render(<Encabezado/>, contenedorEncabezado);
+render(<Personajes/>, contenedor);
+
