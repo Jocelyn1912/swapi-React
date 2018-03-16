@@ -2,7 +2,7 @@
   "personajes": [
     {
       "id" : "1",
-      "img" : "./img/luke.jpg"
+      "img" : "./../src/img/luke.jpg"
     },
     {
       "id" : "2",
