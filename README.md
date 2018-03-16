@@ -9,19 +9,19 @@ Muesta:
 ![img](https://image.ibb.co/dGm0Cx/Fire_Shot_Capture_40_SWAPI_http_localhost_3000.png)
 
 
-+ Para realizar este proyecto se usó:
+# Para realizar este proyecto se usó:
   - Api SWAPI, la api de star wars.
   - React js.
   - React-bootstrap.
   - react-dom.
   - Node js.
 
-+ Uso de React:
+# Uso de React:
   - React es una librería de JavaScript la cual debemos instalar globalmente antes de comenzar nuestro proyecto, esto lo hacemos desde la terminal ejecutando npm install -g create-react-app.
   - Para comenzar un nuevo proyecto debemos ejecutar desde la terminal create-react-app nombre_proyecto, así creamos las carpetas de configuraciones, gestores de paquetes, transpiladores, etc.
   - Luego debes posicionarte, desde la terminal, sobre la carpeta del proyecto creado con cd nombre_proyecto.
   - Por último debes ejecutar npm start para comenzar tu proyecto e ir visualizándolo en el servidor web, en tu navegador, localhost:3000.
 
-  Wireframe del proyecto
+# Wireframe del proyecto
 
  ![img](https://image.ibb.co/igFhQH/IMG_20180316_022056_1.jpg)
