@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const id = 2;
+const id = 1;
 
 const api_url = `https://swapi.co/api/people/${id}/`;
 
