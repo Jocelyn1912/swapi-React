@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import './Personajes.css';
 import img from './../../img/luke.jpg';
-
+import './Personajes.css';
 
 class Personajes extends Component {
   render() {
