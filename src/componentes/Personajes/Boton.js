@@ -8,7 +8,7 @@ class Boton extends Component {
       <div>
         {
           datos.map(function(item) {
-            return 
+            return
             console.log(item.personajes);
             
           })
