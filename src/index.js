@@ -4,6 +4,7 @@ import './index.css';
 import Encabezado from './componentes/Encabezado/Encabezado.js'
 import Personajes from './componentes/Personajes/Personajes.js';
 import Modal from './componentes/modal/Modal.js';
+import Ficha from './componentes/Ficha/Ficha.js';
 
 
 const contenedorEncabezado = document.getElementById('head');
@@ -13,4 +14,10 @@ const contenedorModal = document.getElementById('modal');
 render(<Encabezado/>, contenedorEncabezado);
 render(<Personajes/>, contenedor);
 render(<modal/>, contenedorModal);
+const footer = document.getElementById('footer');
+
+render(<Encabezado/>, contenedorEncabezado);
+render(<Personajes/>, contenedor);
+render(<Ficha/>, footer);
+
 
