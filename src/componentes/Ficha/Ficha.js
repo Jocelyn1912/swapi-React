@@ -9,26 +9,39 @@ class Ficha extends Component {
    constructor(props) {
     super(props);
     this.state = {
-      data: []
+      personas: [],
     }
+    this.fetchData = this.fetchData.bind(this);
   }
 
-  componentDidMount() {
-    this.fetchData();
-  }
 
   fetchData(){
     fetch(api_url)
     .then(data => (data.json()))
-    .then(api_data => {
-      console.log(api_data);
+    .then(results => {
+      const api_data = results; 
+      this.setState({personas: api_data})
     })
   }
 
 
+  componentDidMount() {
+   this.fetchData();
+  }
+
+
   render() {
+    const {personas} = this.state;
     return(
-      <div>Hola</div>
+      <div>
+        <h2>{personas.name}</h2>
+        <h4>Born in {personas.birth_year}</h4>
+        <p>Gender: {personas.gender}</p>
+        <p>Height: {personas.height}</p>
+        <p>Eyes color: {personas.eye_color}</p>
+        <p>Hair color: {personas.hair_color}</p>
+        <p>Skin color: {personas.skin_color}</p>
+     </div>
     )
   }
 

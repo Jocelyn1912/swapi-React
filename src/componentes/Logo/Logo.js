@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import logo from './../../img/logo-actual-star-wars.jpg';
 import './Logo.css';
 

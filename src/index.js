@@ -13,11 +13,10 @@ const contenedorModal = document.getElementById('modal');
 
 render(<Encabezado/>, contenedorEncabezado);
 render(<Personajes/>, contenedor);
-render(<modal/>, contenedorModal);
+render(<Modal/>, contenedorModal);
 const footer = document.getElementById('footer');
 
 render(<Encabezado/>, contenedorEncabezado);
 render(<Personajes/>, contenedor);
-render(<Ficha/>, footer);
 
 
