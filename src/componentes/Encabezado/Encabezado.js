@@ -1,7 +1,9 @@
+// Importando React
 import React, { Component } from 'react';
+// Importando componente a usar
 import Logo from './../Logo/Logo.js';
-//import './Encabezado.css';
 
+/* Renderizado para mostrar los datos en la web */
 class Encabezado extends Component {
   render() {
     return (
@@ -12,4 +14,5 @@ class Encabezado extends Component {
   }
 }
 
+// Exportando componente
 export default Encabezado;

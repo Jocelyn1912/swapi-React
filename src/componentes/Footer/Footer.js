@@ -1,6 +1,9 @@
+// Importando React
 import React, { Component } from 'react';
+// Importando css
 import './Footer.css';
 
+/* Renderizado para mostrar los datos en la web */
 class Footer extends Component {
   render() {
     return(
@@ -11,4 +14,5 @@ class Footer extends Component {
   }
 }
 
+// Exportando componente
 export default Footer;

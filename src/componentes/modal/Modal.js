@@ -1,4 +1,6 @@
+// Importando React
 import React, { Component } from 'react';
+// Importando componente a usar
 import Ficha from './../Ficha/Ficha.js';
 
 class Modal extends Component {
@@ -25,4 +27,5 @@ class Modal extends Component {
   }
 }
 
+// Exportando componente
 export default Modal;

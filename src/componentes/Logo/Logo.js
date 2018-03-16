@@ -1,7 +1,10 @@
+// Importando React
 import React, { Component } from 'react';
+// Importando componente a usar
 import logo from './../../img/logo-actual-star-wars.jpg';
 import './Logo.css';
 
+/* Renderizado para mostrar los datos en la web */
 class Logo extends Component {
   render() {
     return (
@@ -13,4 +16,5 @@ class Logo extends Component {
   }
 }
 
+// Exportando componente
 export default Logo;
