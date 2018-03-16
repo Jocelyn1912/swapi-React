@@ -8,7 +8,7 @@ class Logo extends Component {
     return (
       <div>
         <img src={logo} className="img-responsive" />
-        <p>Haz click en la imagen para ver detalles del personaje!!</p>
+        <p></p>
       </div>
     );
   }
