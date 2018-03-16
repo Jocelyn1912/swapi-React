@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Logo from './../Logo/Logo.js';
 //import './Encabezado.css';
 
