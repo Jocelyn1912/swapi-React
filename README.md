@@ -2,7 +2,7 @@
 
 SWAPI es una web-movile para los fanáticos de Star Wars, donde podrán ver las características principales de los personajes de esta saga.
 
-# Demo <https://pamearteaga.github.io/swapi-react/>
+Demo <https://pamearteaga.github.io/swapi-react/>
 
 Muesta:
 
