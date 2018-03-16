@@ -19,7 +19,7 @@ class Ficha extends Component {
     fetch(api_url)
     .then(data => (data.json()))
     .then(results => {
-      const api_data = results; 
+      const api_data = results;
       this.setState({personas: api_data})
     })
   }
