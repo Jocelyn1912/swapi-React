@@ -1,4 +1,4 @@
-# **Proyecto SWAPI con React**
+# Proyecto SWAPI con React
 
 SWAPI es una web-movile para los fanáticos de Star Wars, donde podrán ver las características principales de los personajes de esta saga.
 
